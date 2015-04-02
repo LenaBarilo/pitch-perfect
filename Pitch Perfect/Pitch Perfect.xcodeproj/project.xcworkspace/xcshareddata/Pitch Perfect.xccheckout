@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A02D1C8-5046-4280-A00E-7CA46D67783F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pitch Perfect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>385DBF4BCF424FAD8FC65DF13D1536A5AF75753E</key>
+		<string>https://github.com/LenaBar/iOSApp-PitchPerfect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pitch Perfect.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>385DBF4BCF424FAD8FC65DF13D1536A5AF75753E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LenaBar/iOSApp-PitchPerfect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>385DBF4BCF424FAD8FC65DF13D1536A5AF75753E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>385DBF4BCF424FAD8FC65DF13D1536A5AF75753E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pitch%20Perfect</string>
+		</dict>
+	</array>
+</dict>
+</plist>
