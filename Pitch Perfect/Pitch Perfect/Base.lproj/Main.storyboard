@@ -29,13 +29,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wr-AB-XwK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7T-OV-9T6">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iK-3K-FJV">
@@ -50,8 +44,14 @@
                                     <action selector="StopRecording:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="q0I-Mh-tbI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7T-OV-9T6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="0iK-3K-FJV" secondAttribute="centerX" constant="0.5" id="1Ge-99-6Ta"/>
                             <constraint firstItem="0iK-3K-FJV" firstAttribute="top" secondItem="0ck-SU-eBL" secondAttribute="bottom" constant="149" id="93P-ww-dLu"/>
@@ -135,6 +135,9 @@
                                 <state key="normal" image="Stop2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="162" y="444" width="50" height="50"/>
+                                </variation>
                                 <connections>
                                     <action selector="StopPlayback:" destination="jRS-st-Jid" eventType="touchUpInside" id="mW9-5e-sVB"/>
                                 </connections>
@@ -170,7 +173,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="hS7-HV-uEd" secondAttribute="centerX" constant="0.5" id="9wT-LR-uw3"/>
                             <constraint firstItem="KUV-Tf-W4e" firstAttribute="leading" secondItem="mgH-0a-2FS" secondAttribute="leadingMargin" constant="25" id="B07-4k-Dub"/>
